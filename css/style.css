@@ -1,0 +1,121 @@
+
+/* Body Styling and document font */
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.box1 {
+  width: 42%;
+  color: white;
+  background-color: black;
+}
+
+.box2 {
+  width: 58%;
+}
+
+.maindiv{
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+  
+}
+  .element {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+  /* text color */
+  .textcolor{
+    color: #383C4C;
+  }
+  
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+
+  /* Table column styling for Name and Personal Detials */
+  .icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: #f3d94c;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  .name {
+    font-size: 70px;
+  }
+  .left-padding{
+    padding-left: 24px;
+    width: 90%;
+    margin:auto;
+  }
+  .color-column {
+    background-color: #f3d94c;
+    width:60%;
+    text-align: left;
+    padding-left: 9rem;
+    padding-top: 1.2rem;
+  }
+  
+  .second-column {
+    padding: 5px;
+    width: 35%;
+  }
+  
+  .extra-column {
+    padding: 10px;
+    width: 5%;
+  }
+                          /* Hedding  Text */
+  .heading{
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .second-heading{
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+  
+           /* horizontal role styleng */
+
+  .left-hr{
+    width: 90%;
+    color: white;
+    
+  }
+  .right-hr{
+    width: 90%;
+    border: 1px solid #383C4C
+  }
+  
+  
+  .unimargin{
+    width: 90%;
+    margin:auto;
+  }
+  
+  .heig80{
+    height: 23rem;
+  }
+  
+  .no-spacing {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+  }
